@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #C5DDEB;
+    font: 14px/20px "Lato", Arial, sans-serif;
+    padding: 40px 0;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+    background: #444753;
+    border-radius: 5px;
+}
+
+.search {
+    position: relative;
+}
+
+.user-list input {
+    border-radius: 3px;
+    border: none;
+    padding: 14px;
+    color: white;
+    background: #6A6C75;
+    width: 90%;
+    font-size: 14px;
+    margin: 25px 20px 10px;
+    outline:none;
+}
+
+i.fa.fa-search {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.list li {
+    padding-bottom: 20px;
+}
+
+.about {
+    position: relative;
+    float: right;
+    margin-right: 11%;
+    margin-top: 10px;
+}
+
+i.fa.fa-trash-o {
+    color: #bbb;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 10%;
+    width: 20%;
+}
+
+.name {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.fa-circle {
+    color: #86BB71;
+    padding-right: 5px;
+}
+.user-list .status {
+    color: #92959E;
+}
+
+.add-user input {
+    border-radius: 3px;
+    border: none;
+    padding: 20px;
+    color: white;
+    background: #6A6C75;
+    width: 71%;
+    font-size: 14px;
+    outline: none;
+    margin-right: 0;
+    margin-bottom: 25px;
+}
+
+.add-user button {
+    float: right;
+    color: #94C2ED;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #F2F5F8;
+    width: 20%;
+    border-radius: 3px;
+    padding: 18px;
+    border: 1px solid #444753;
+    margin: 25px 15px 25px 0;
+}
